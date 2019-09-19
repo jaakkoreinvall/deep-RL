@@ -1,4 +1,4 @@
-# test-rl
+# DQN Pong
 A PyTorch implementation of Deep Q-network (DQN) based on [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) for Pong.
 
 ## Examples
