@@ -2,7 +2,7 @@
 A PyTorch implementation of Deep Q-network (DQN) based on [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) for Pong.
 
 ## Examples
-Training DQN using Adam optimizer with learning rate of 10<sup>-5</sup> for 20 million frames gives the result shown in the left figure below. The hyperparameters are the same as in the paper, except for the optimizer. An epoch consists of 250 k training and 125 k validation frames. The best agent chosen based on the validation performance achieved the mean of 19.0±1.5 of standard deviation in evaluation (the original result of the paper is 18.9±1.3). This agent is shown playing in the right figure below.
+Training DQN using Adam optimizer with learning rate of 10<sup>-5</sup> for 20 million frames gives the result shown in the left figure below. The hyperparameters are the same as in the paper, except for the optimizer. An epoch consists of 250 k training and 125 k validation frames. The best agent chosen based on the validation performance achieved the mean of 19.0±1.5 of standard deviation in evaluation (the original result of the paper is 18.9±1.3). This agent is shown winning in the right figure below.
 
 <img src="visualizations/adam_1e-5_20M_valid.png" width="500"/> <img src="visualizations/last_1k_frames_of_random_episode_in_eval.gif" width="350"/> 
 
